@@ -15,6 +15,7 @@
 		86DD174B1BFD7C240071D651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86DD17491BFD7C240071D651 /* LaunchScreen.storyboard */; };
 		86DD17561BFD7C240071D651 /* LiveStreamDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DD17551BFD7C240071D651 /* LiveStreamDemoTests.m */; };
 		86DD17611BFD7C240071D651 /* LiveStreamDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86DD17601BFD7C240071D651 /* LiveStreamDemoUITests.m */; };
+		86DD176F1BFD7D5C0071D651 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DD176E1BFD7D5C0071D651 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		86DD175C1BFD7C240071D651 /* LiveStreamDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveStreamDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DD17601BFD7C240071D651 /* LiveStreamDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveStreamDemoUITests.m; sourceTree = "<group>"; };
 		86DD17621BFD7C240071D651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DD176E1BFD7D5C0071D651 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86DD176F1BFD7D5C0071D651 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		86DD172F1BFD7C240071D651 = {
 			isa = PBXGroup;
 			children = (
+				86DD176E1BFD7D5C0071D651 /* MediaPlayer.framework */,
 				86DD173A1BFD7C240071D651 /* LiveStreamDemo */,
 				86DD17541BFD7C240071D651 /* LiveStreamDemoTests */,
 				86DD175F1BFD7C240071D651 /* LiveStreamDemoUITests */,
@@ -412,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiveStreamDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ratish.mobileapps.LiveStreamDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LiveStreamDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ratish.mobileapps.LiveStreamDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +502,7 @@
 				86DD17671BFD7C240071D651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86DD17681BFD7C240071D651 /* Build configuration list for PBXNativeTarget "LiveStreamDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				86DD176A1BFD7C240071D651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86DD176B1BFD7C240071D651 /* Build configuration list for PBXNativeTarget "LiveStreamDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				86DD176D1BFD7C240071D651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

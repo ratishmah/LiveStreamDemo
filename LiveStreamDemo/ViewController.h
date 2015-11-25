@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *urlTextField;
+@property (strong, nonatomic) MPMoviePlayerController *videoPlayer;
+- (IBAction)playVideo:(id)sender;
 
 @end
 
